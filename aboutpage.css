@@ -1,0 +1,237 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #6C5B7B;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #355C7D;
+    color: white;
+  }
+h2 {
+    padding-top: 100px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 4em;
+    color:#F67280;
+}
+p {
+    margin-left: auto;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 2em;
+    color: black;
+}
+ul {
+    padding-bottom: 2px;
+}
+.sub-heading {
+    margin-left: auto;
+    margin-right: 40px;
+    text-align: right;
+    font-size: 20pt;
+    color: #C06C84;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.hero-image {
+    background-image: url("images/headshot.jpeg");
+    background-repeat: no-repeat;
+  }
+
+div.hero-text {
+      height: 500px;
+      width: 100%;
+      padding-top: 0;
+  }
+
+.work-section {
+    background-color: #F8B195;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  color: #F8B195 ;
+}
+.study-section {
+    background-color: #F67280;
+    height: 500px;
+    width: 100%;
+}
+
+.section-headers {
+    padding-top: 20px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 2em;
+    color:#6C5B7B;
+}
+.cards {
+  flex-grow: 4;
+  display: flex;
+  background-color: #F8B195;
+  color: #F8B195;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2px;
+  border: dotted;
+}
+
+img.work-image {
+  width: 100%;
+  height: 40%;
+  /* padding: 0px 0px 0px 0px; */
+  padding-top: 0;
+  border-color: #355C7D;
+  box-shadow: var(--box-shadow-blue);
+  object-fit: fill;
+
+}
+h4 {
+  font-size: 16pt;
+  color: black;
+}
+p.work-text {
+  font-size: 10pt;
+  margin-left: 5px;
+}
+.card-study {
+  flex-grow: 4;
+  display: flex;
+  background-color: #F8B195;
+  color: #F8B195;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2px;
+  border: dotted;
+}
+.column1 {
+  flex: 50%;
+  color: #F8B195;
+  float: left;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+.card1 {
+  width: 50%;
+  height: 350px;
+}
+
+.column2 {
+  flex: 50%;
+  color: #F8B195;
+  float: left;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+.card1 {
+  width: 50%;
+}
+.row1 {
+ display: flex;
+ object-fit: fill;
+ height: 400px;
+ align-items: center;
+ justify-content: center;
+}
+
+.img study-image {
+  
+}
+.interest-section {
+  background-color: #C06C84;
+  height: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    text-align: center;
+    background-color: #355C7D;
+    padding: 10px;
+}
+
