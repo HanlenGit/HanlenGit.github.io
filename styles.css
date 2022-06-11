@@ -1,14 +1,18 @@
 /* Add a black background color to the top navigation */
+body {
+  background-color: #2b6777;
+}
+
 .topnav {
-    background-color: #6C5B7B;
-    overflow: hidden;
-    padding-bottom: 0;
-  }
+  background-color: #c8d8e4;;
+  overflow: hidden;
+  padding-bottom: 0;
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #2b6777;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,7 +27,22 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #355C7D;
+    background-color: #c8d8e4;
+    color: #2b6777;
+
+  }
+  button {
+    float: right;
+    color: #c8d8e4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #c8d8e4;
+  }
+
+  .dark-mode {
+    background-color: black;
     color: white;
   }
 h2 {
@@ -33,7 +52,7 @@ h2 {
     margin-right: 40px;
     text-align: right;
     font-size: 4em;
-    color:#F67280;
+    color:#2b6777;
 }
 p {
     margin-left: auto;
@@ -46,16 +65,19 @@ ul {
     padding-bottom: 2px;
 }
 .sub-heading {
-    margin-left: auto;
+    margin-left: 550px;
     margin-right: 40px;
     text-align: right;
     font-size: 2em;
-    color: #C06C84;
+    color: white;
+    background-color: #2b6777;
 }
 button {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #2b6777;
+    border: 2px solid #2b6777;
 }
   .hero-image {
     background-image: url("images/cartoon.png");
@@ -68,8 +90,8 @@ button {
       padding-top: 0;
   }
  .about-section {
-    background-color: #F8B195;
-    height: 700px;
+    background-color: #f2f2f2;
+    height: 450px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -80,11 +102,15 @@ button {
     font-size: 14pt;
     color: #6C5B7B;
     padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #2b6777;
+
   }
 .blocks {
     flex-grow: 4;
     display: flex;
-    background-color: #F8B195;
+    background-color: #f2f2f2;
     height: 240px;
     width: 100%;
     align-items: center;
@@ -98,7 +124,8 @@ button {
     margin-right: 40px;
     text-align: center;
     font-size: 2em;
-    color:#6C5B7B
+    color:#2b6777
+
   }
   .contact-header {
     padding-top: 20px;
@@ -107,7 +134,7 @@ button {
     margin-right: 40px;
     text-align: center;
     font-size: 2em;
-    color:#6C5B7B
+    color:#f2f2f2
 
   }
   li {
@@ -126,27 +153,38 @@ button {
     padding-bottom: 2px;
   }
   img.work-image {
-    width: 70%;
-    height: 60%;
+    width: 125px;
+    height: 150px;
     /* padding: 0px 0px 0px 0px; */
     padding-top: 0;
     border: solid;
     border-color: #355C7D;
     box-shadow: var(--box-shadow-blue);
-    object-fit: fill;
+
   }
   h3 {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     border: 0px 0px 0px 0px;
+    background-color: #c8d8e4;
   }
   .project-section {
-      background-color: #F67280;
+      background-color: #f2f2f2;
       height: 400px;
       width: 100%;
   }
+
+  .project-text {
+    text-align: center;
+    font-size: 14pt;
+    color: #2b6777;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .contact-section {
-      background-color: #C06C84;
+      background-color: #2b6777;
       height: 400px;
       width: 100%;
   }
@@ -155,26 +193,30 @@ button {
       padding: 0px 0px 0px 0px;
       margin: 2px 0 2px 0;
   }
-.icons {
+.icons-container {
     display: flex;
-    height: 300px;
-    width: 100%;
-    align-items: center;
+    padding-top: 25px;
+    height: 100px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
-.icon {
-    height: 140px;
-    width: 140px;
-    border: solid;
-    display: flex;
-    justify-content: space-around;
-    object-fit: inherit;
+img.icon {
+  height: 100px;
+  width: 100px;
+  object-fit: fill;
+  border-radius: 1pt;
+  border-style: groove;
+  padding-left: 5px;
+  padding-right: 5px;
 
 }
   form {
     margin: 50px auto;
     width: 90%;
+}
+label {
+  color: #f2f2f2;
 }
 
 .form-item {
@@ -220,8 +262,8 @@ button {
 }
 footer {
     text-align: center;
-    background-color: #355C7D;
-    padding: 10px;
+    background-color: #c8d8e4;
+    padding: 20px;
 }
 
 @media screen and (max-width: 650px) {

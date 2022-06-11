@@ -16,15 +16,17 @@
             <nav class="navbar navbar-expand-lg navbar-dark default-color right">
                     <div class="topnav">
                         <a class="active" href="index.html">Home</a>
-                        <a href="aboutpage.html">About</a>
-                        <a href="tech.html">Tech</a>
-                        <a href="contact-section">Contact</a>
-                      </div>
+                        <a href="game.html">Quiz</a>
+                        <a href="https://www.linkedin.com/in/sandra-hanlen-62b7a9110/">LinkedIn</a>
+                        <a href="https://github.com/HanlenGit">GitHub</a>
 
-                  
+                        <div>
+                            <button onclick="darkMode()">Darkmode</button>
+                        </div>
+                      </div>
                   <div class="hero-image">
                       <div class="hero-text">
-                        <h2><span style="color: #F67280">Hi</span>, I'm Sandra Hanlen</h2>
+                        <h2 style="color: #f2f2f2">Hi, I'm Sandra Hanlen</h2>
                         <p class="sub-heading">Program Manager // Change Maker // Story Teller // Adventurer</p>
                     </div>
                   </div>
@@ -32,27 +34,7 @@
         </header>
         <main>
             <section class="about-section">
-                <h2 class="section-headers">About Me</h2>
-                <div class="blocks">
-                    <ul class="block-container">
-                        <li class="container">
-                            <img class="work-image" src="images/work.jpeg">
-                            <h3>Work</h3>
-                        </li>
-                        <li>
-                            <img class="work-image" src="images/study.jpeg">
-                            <h3>Study</h3>
-                        </li>
-                        <li>
-                            <img class="work-image" src="images/travel.jpeg">
-                            <h3>Travel</h3>
-                        </li>
-                        <li>
-                        <img class="work-image" src="images/interests.jpeg">
-                            <h3>Interests</h3>
-                        </li>
-                    </ul>
-                </div>
+                <h2 class="section-headers">A Bit About Me</h2>
                 <div>
                     <p class="about-me-text">Kia Ora! Thank you so much for venturing through my website and reading more about me. I am a proud Maori woman from Aotearoa (New Zealand) who migrated to Whadjuk Boodja in 2012. I have a Bachelor Degree in Business with a major in Human Resources and Employment Relations. I have 10 years of leadership experience with nine of those years in the Employment Services space and prior to this I worked for the Ministry of Social Development in New Zealand for nine years. I am passionate about elevating First Nations people into roles where they are part of the decisions that affect the future generations of their people.
                         I am an advocate and ally for vulerable individuals and believe that higher education is the key to increased representation in executive roles.</p>
@@ -63,12 +45,19 @@
             </section>
             <section class="project-section">
                 <h2 class="section-headers">Tech and She Codes Projects</h2>
-                <div class="icons">
-                    <img class="icon" src="favicons/python.jpeg">
-                    <img class="icon" src="favicons/html.jpeg">
-                    <img class="icon" src="favicons/css.jpeg">
-                    <img class="icon" src="favicons/drf.jpeg">
-                    <img class="icon" src="favicons/react.jpeg">
+                    <div class="icons-container">
+                        <img class="icon" src="favicons/python.jpeg">
+                        <img class="icon" src="favicons/html.jpeg">
+                        <img class="icon" src="favicons/css.jpeg">
+                        <img class="icon" src="favicons/drf.jpeg">
+                        <img class="icon" src="favicons/react.jpeg">
+                    </div>
+                <div>
+                    <p class="project-text">In November 2021 I applied for a place with the She code Plus Program. My motivation for submitting my application was to learn a completely foreign skill. 
+                     was terrified of being the dumbest person in the class and showing weakness and that fear nearly resulted in withdrawing from the program multiple times.
+                    What kept me in the program was the incredible support from mentors, other particpants who have become friends and that every week a small piece of the puzzle was coming together.
+                    Six months later I know that if I can learn the basics of coding to feel comfortable with different programming languages, there is probably not alot I won't attempt in the future. 
+                    </p>
                 </div>
 
 
@@ -98,6 +87,11 @@
         <footer style="font-size: small;"> <b>&copy; Sandra Hanlen 2022.</b> </footer>
 
         <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>
-
+        <script>
+            function darkMode() {
+              var element = document.body;
+              element.classList.toggle("dark-mode");
+            }
+          </script>
     </body>
 </html>
