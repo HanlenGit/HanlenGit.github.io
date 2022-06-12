@@ -70,7 +70,6 @@ ul {
     text-align: right;
     font-size: 20pt;
     color: white;
-    background-color: #2b6777;
 }
 button {
     margin-left: auto;
@@ -104,8 +103,7 @@ button {
 
     .about-me-text {
       text-align: center;
-      font-size: 14pt;
-      color: #6C5B7B;
+      font-size: 12pt;
       padding-top: 2px;
       padding-left: 20px;
       padding-right: 20px;
@@ -190,8 +188,7 @@ img.about-pic {
 
     .project-text {
       text-align: center;
-      font-size: 14pt;
-      color: #6C5B7B;
+      font-size: 12pt;
       padding-top: 2px;
       padding-left: 20px;
       padding-right: 20px;
