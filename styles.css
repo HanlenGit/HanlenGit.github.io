@@ -51,7 +51,7 @@ h2 {
     margin-left: auto;
     margin-right: 40px;
     text-align: right;
-    font-size: 4em;
+    font-size: 24pt;
     color:#2b6777;
 }
 p {
@@ -68,7 +68,7 @@ ul {
     margin-left: 550px;
     margin-right: 40px;
     text-align: right;
-    font-size: 2em;
+    font-size: 20pt;
     color: white;
     background-color: #2b6777;
 }
@@ -91,22 +91,38 @@ button {
   }
  .about-section {
     background-color: #f2f2f2;
-    height: 450px;
+    height: 550px;
     width: 100%;
     align-items: center;
     justify-content: center;
+    border-radius: 1px;
+    border-color: #2b6777;
+    border-style: groove;
+    padding-bottom: 15px;
+    overflow: hidden;
   }
 
-  .about-me-text {
-    text-align: center;
-    font-size: 14pt;
-    color: #6C5B7B;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #2b6777;
+    .about-me-text {
+      text-align: center;
+      font-size: 14pt;
+      color: #6C5B7B;
+      padding-top: 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #2b6777;
+      text-overflow: ellipsis;
+    }
 
-  }
+img.about-pic {
+  height: 100px;
+  width: 120px;
+  margin-left: 43%;
+  margin-right: 45%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
+
 .blocks {
     flex-grow: 4;
     display: flex;
@@ -152,16 +168,7 @@ button {
     align-items: center;
     padding-bottom: 2px;
   }
-  img.work-image {
-    width: 125px;
-    height: 150px;
-    /* padding: 0px 0px 0px 0px; */
-    padding-top: 0;
-    border: solid;
-    border-color: #355C7D;
-    box-shadow: var(--box-shadow-blue);
 
-  }
   h3 {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -169,47 +176,57 @@ button {
     background-color: #c8d8e4;
   }
   .project-section {
-      background-color: #f2f2f2;
-      height: 400px;
-      width: 100%;
-  }
-
-  .project-text {
-    text-align: center;
-    font-size: 14pt;
-    color: #2b6777;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .contact-section {
-      background-color: #2b6777;
-      height: 400px;
-      width: 100%;
-  }
-  .small-p {
-      font-size: 10pt;
-      padding: 0px 0px 0px 0px;
-      margin: 2px 0 2px 0;
-  }
-.icons-container {
-    display: flex;
-    padding-top: 25px;
-    height: 100px;
+    background-color: #f2f2f2;
+    height: 400px;
+    width: 100%;
+    align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
-}
+    border-radius: 1px;
+    border-color: #2b6777;
+    border-style: groove;
+    padding-top: 15px;
+    /* overflow: hidden; */
+  }
 
-img.icon {
-  height: 100px;
-  width: 100px;
-  object-fit: fill;
-  border-radius: 1pt;
-  border-style: groove;
-  padding-left: 5px;
-  padding-right: 5px;
+    .project-text {
+      text-align: center;
+      font-size: 14pt;
+      color: #6C5B7B;
+      padding-top: 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: #2b6777;
+      text-overflow: none;
+    }
+      .small-p {
+          font-size: 10pt;
+          padding: 0px 0px 0px 0px;
+          margin: 2px 0 2px 0;
+      }
+    .icons-container {
+      display: flex;
+      padding-top: 25px;
+      height: 100px;
+      justify-content: center;
+      padding-bottom: 20px;
+      overflow: hidden;
+      
+    }
 
+    img.icon {
+      height: 100px;
+      width: 100px;
+      object-fit: fill;
+      border-radius: 1pt;
+      border-style: groove;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+.contact-section {
+  background-color: #2b6777;
+  height: 400px;
+  width: 100%;
 }
   form {
     margin: 50px auto;
@@ -266,16 +283,12 @@ footer {
     padding: 20px;
 }
 
-@media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: #2b6777;
   }
+}
   
-  @media (min-width: 500px) {
-    .column1 .column2 .column3 {
-      display: block;
-      width: 44%;
-    }
-  }
