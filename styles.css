@@ -2,7 +2,6 @@
 body {
   background-color: #2b6777;
 }
-
 .topnav {
   background-color: #c8d8e4;;
   overflow: hidden;
@@ -17,6 +16,8 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-color: #c8d8e4;
+    padding-bottom: 10px;
   }
   
   /* Change the color of links on hover */
@@ -44,6 +45,7 @@ body {
   .dark-mode {
     background-color: black;
     color: white;
+
   }
 h2 {
     padding-top: 100px;
@@ -70,6 +72,7 @@ ul {
     text-align: right;
     font-size: 20pt;
     color: white;
+    /* background-color: #2b6777; */
 }
 button {
     margin-left: auto;
