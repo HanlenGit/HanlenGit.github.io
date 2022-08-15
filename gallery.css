@@ -72,7 +72,7 @@ body {
     display: block; 
     align-items: center;
     justify-content: space-evenly; 
-    margin-left: 50px;
+    margin-left: 80px;
   }
     div.gallery {
         margin: 5px;
@@ -114,6 +114,7 @@ body {
       width: 100%;
       height: 533px;
       object-fit: scale-down;
+      background-color: aliceblue;
   }
 
     div.desc {
